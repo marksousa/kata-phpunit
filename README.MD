@@ -1,9 +1,22 @@
 # Code Kata with PHPUnit
 
+Repositório para estudo e prática de técnicas de TDD usando PHPUnit
+
 ## Fatores Primos
 
-   ...
+<pre>
+Ex: 100
+>      100   2
+>         50    2
+>            25    5
+>               5     5
+>                  1
+   100 = 2*2*5*5
+</pre>
 
+   1. O numero é divisivel por 2?
+   2. true ? divida por 2 : vá para o próximo primo e tente novamente.
+   3. Repita
 ## Números Romanos
 
     - 1 => I
@@ -24,3 +37,6 @@
     - 100 => C
     - 500 => D
     - 1000 => M
+
+## Jogo de Boliche
+
